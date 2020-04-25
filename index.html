@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--W celu najlepszego widoku zachęcam Cię do ustawienia rozdzielczości na coś tam na coś tam-->
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Park Rozrywki - mini aplikacja</title>
+    <meta name="description" content="Park Rozrywki - mini aplikacja">
+    <meta name="author" content="Ewelina Babiarz">
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+
+  <body>
+      <div class="container">
+            <h1 class="heading">Witamy w Parku Rozrywki</h1>
+            <p>Którą część chcesz odwiedzić?</p>
+            <p></p>
+            <label><input type="radio" name="zone" id="zone-01" />strefę familijną</label>
+            <p></p>
+            <label><input type="radio" name="zone" id="zone-02" />strefę przyrodniczą</label>
+            <p></p>
+            <label><input type="radio" name="zone" id="zone-03" />strefę ekstremalną</label>
+            <p>Twój rok urodzenia:</p>
+            <input type="number" id="input-year" min="1900" />
+            <p>Podaj ilość pieniędzy:</p>
+            <input type="number" id="input-money" min="0" />
+            <p></p>
+            <button id="btn-buy">Kup bilet!</button>
+      </div>
+
+      <script src="./script.js"></script>
+
+  </body>
+</html>

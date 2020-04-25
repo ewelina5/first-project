@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: cornflowerblue;
+    border: 2.5px solid blue;
+    border-radius: 5%;
+    text-align: center;
+    padding: 40px 20px 40px 20px;
+}
+
+p {
+    margin-top: 15px;
+}
+
+
+.heading {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#btn-buy {
+    margin-top: 20px;
+    border-color: blue;
+    border-radius: 50%;
+    background-color: lightblue;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px 10px 5px 10px;
+}
